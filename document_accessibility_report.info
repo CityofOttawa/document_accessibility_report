@@ -1,0 +1,12 @@
+name = Document accessibility report
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = document_accessibility_report
+dependencies[] = better_exposed_filters
+dependencies[] = views
+dependencies[] = views_data_export
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = accessibility_test_2
+features_exclude[dependencies][ctools] = ctools

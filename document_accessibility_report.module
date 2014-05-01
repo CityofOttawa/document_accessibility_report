@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Document accessibility report feature.
+ */
+
+include_once 'document_accessibility_report.features.inc';
